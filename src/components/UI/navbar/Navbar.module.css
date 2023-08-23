@@ -1,15 +1,23 @@
 .navbar {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    flex-direction: row;
     height: 80px;
     background-color: black;
-    
+    padding-left: 220px;
+    padding-right: 220px;
 }
 .navbar>div {
     margin-top: auto;
     margin-bottom: auto;
 }
+.navbar_menu {
+    width: 617px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 a {
     color: white;
     font-family: 'Roboto';
@@ -21,14 +29,10 @@ a {
 }
 .title {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
     width: 82px;
     height: 52px;
-    margin-left: 220px;
-    border: 1px solid #FFFFFF;
-    border-radius: 2px;
+    
     
 }
 .title>a {
@@ -37,16 +41,21 @@ a {
     font-weight: 400;
     font-size: 19.0145px;
     line-height: 120%;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
     
+   
 }
 .menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 472px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
 }
 .designed {
-    margin-right: 220px;
+
 }
 
 
