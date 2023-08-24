@@ -7,17 +7,17 @@ const Navbar = () => {
 
     return (
         <div className={cl.navbar}>
-            <div className={cl.navbar_menu}>
+            <div className={cl.menu}>
+                
                 <div className={cl.title}>
                     <Link to="/about">PetStory online</Link>
                 </div>
-                <div className={cl.menu}>
-                    <Link to="/about">About</Link>
-                    <Link to="/map">Map</Link>
-                    <Link to="/zoos">Zoos</Link>
-                    <Link to="/donate">Donate</Link>
-                    <Link to="/cantact">Contact us</Link>
-                </div>               
+                <Link to="/about">About</Link>
+                <Link to="/map">Map</Link>
+                <Link to="/zoos">Zoos</Link>
+                <Link to="/donate">Donate</Link>
+                <Link to="/cantact">Contact us</Link>
+                            
             </div>
 
             <div className={cl.designed}>
