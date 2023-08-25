@@ -8,7 +8,6 @@ const Navbar = () => {
     return (
         <div className={cl.navbar}>
             <div className={cl.menu}>
-                
                 <div className={cl.title}>
                     <Link to="/about">PetStory online</Link>
                 </div>
@@ -16,8 +15,7 @@ const Navbar = () => {
                 <Link to="/map">Map</Link>
                 <Link to="/zoos">Zoos</Link>
                 <Link to="/donate">Donate</Link>
-                <Link to="/cantact">Contact us</Link>
-                            
+                <Link to="/cantact">Contact us</Link>                
             </div>
 
             <div className={cl.designed}>
