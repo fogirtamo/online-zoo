@@ -1,6 +1,6 @@
 import React from "react";
-
 import cl from './Watch.module.css'
+import Button from "./UI/button/Button";
 
 
 const Watch = () => {
@@ -10,6 +10,8 @@ const Watch = () => {
             </div>
             <div className={cl.watch_text}>
             </div> 
+            
+            <Button>Watch online</Button>
         </div>
     );
 };

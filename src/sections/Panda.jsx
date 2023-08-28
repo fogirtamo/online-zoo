@@ -9,7 +9,6 @@ const Panda = () => {
         <div className={cl.panda}>
             <Navbar/>
             <Watch/>
-            
         </div>
     );
 };
