@@ -1,0 +1,21 @@
+.watch {
+    height: 600px;
+    width: 573px;
+    margin-right: 220px;
+    margin-left: auto;
+    margin-top: 12px;
+}
+.watch_circle {
+    background: url('../../assets/images/Circle.png') 0 0/100% 100%;;
+    position: absolute;
+    width: 465px;
+    height: 465px;
+}
+.watch_text {
+    background: url('../../assets/images/Watch your favorite animal online.png') 0 0/100% 100%;;
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    margin-top: 74px;
+    margin-left: 73px;
+}
